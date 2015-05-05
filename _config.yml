@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /TaiyoGamers_Blog
+exclude: ['README.md']
