@@ -7,15 +7,14 @@
 
 <header>
    <strong>TaiyoGamer's Blog</strong> <!--accidentally wrote TaiyoGamer's Blong, it was funny hehe-->
-   <nav>
-      <ul>
-	<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-	<li><a href="{{site.baseurl}}/News.html">News</a></li>
-      </ul>
-   </nav>
+	{% include nav.html %} 
+</header> 
+
 {{content}}
+
 <footer>
-<h1> "I try not to think." - Spike Speigel</h1>
+{% include nav.html %} 
+<h5> "I try not to think." - Spike Speigel</h5>
 </footer>
 </body>
 </html>
