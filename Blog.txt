@@ -1,0 +1,8 @@
+---
+Layout: Default
+---
+
+<p> Here is the main page of my blog. From here you can find whatever else it is that you need to find. Have fun! -Taiyo</p>
+
+
+<li><a href="{{site.baseurl}}/BlogPartOne.html" class="{% if page.url == '/BlogPartOne.html' %}current{% endif %}">Blog: May 4th-18th</a></li>
