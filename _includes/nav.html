@@ -1,0 +1,9 @@
+<nav>
+      <ul class="navHome {{include.navClass}}">
+	        <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+	<li><a href="{{site.baseurl}}/GameReviews.html" class="{% if page.url == '/GameReviews.html' %}current{% endif %}">Game Reviews</a></li>
+	<li><a href="{{site.baseurl}}/News.html" class="{% if page.url == '/News.html' %}current{% endif %}">News</a></li>
+        <li><a href="{{site.baseurl}}/random.html" class="{% if page.url == '/random.html' %}current{% endif %}">Thoughts</a></li>
+	<li><a href="{{site.baseurl}}/Blog.html" class="{% if page.url == '/Blog.html' %}current{% endif %}">Blog</a></li>
+      </ul>
+</nav>
